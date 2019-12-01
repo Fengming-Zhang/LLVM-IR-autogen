@@ -1,0 +1,17 @@
+
+void main() {
+	int i = 9, j = 3, a[10*(10/10)]={1,2,3};
+	while (i > j - 3 ) {
+		a[i]=j;
+		j = j + 1;
+		i = i - 1;
+		output_ivar = i;
+		outputInt();
+		output_ivar = a[i];
+		outputInt();
+		output_ivar = j;
+		outputInt();
+		output_ivar = i;
+		outputInt();
+	}
+}

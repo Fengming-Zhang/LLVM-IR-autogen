@@ -1,0 +1,20 @@
+int n ;
+float result = 1 ; 
+
+void function()
+{
+	if (n > 0)
+	{
+		result = result * n ;
+		n = n-1 ;
+		function() ;
+	}
+}
+
+void main()
+{
+	n = 4 ;
+	function() ;
+	output_fvar = result;
+	outputFloat();
+}

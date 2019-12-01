@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/c1r_test.dir/test/main.cpp.o  -o c1r_test libc1recognizer.a -lantlr4-runtime 
